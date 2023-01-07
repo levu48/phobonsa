@@ -2,18 +2,23 @@ import Menu from './menu';
 
 const styles = {
   container: {
-      margin: '10px 0 40px 40px',
+      margin: '10px 0 20px 20px',
   },
   logoContainer: {
     display: 'grid',
     gridTemplateColumns: '100%',
     justifyItems: 'center',
     width: '450px',
-  }, logo: {
+  }, 
+  logo: {
       width: '400px',
   },
   tagLine: {
-    fontWeight: 'bold'
+    display: 'grid',
+    gridTemplateColumns: '100%',
+    justifyItems: 'center',
+    fontWeight: 'bold',
+    width: '450px'
   },
   address: {
     width: '450px',
@@ -23,8 +28,8 @@ const styles = {
     justifyItems: 'center',
     fontStyle: 'italic',
     fontSize: '12px',
-    lineHeight: '80%'
-
+    lineHeight: '80%',
+    border: '1px solid gray',
   }
 }
 
