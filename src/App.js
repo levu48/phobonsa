@@ -1,7 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const App = props => {
+  return (
+    <div>
+      Pho Bonsa
+    </div>
+  )
+}
+
+function App2() {
   return (
     <div className="App">
       <header className="App-header">
