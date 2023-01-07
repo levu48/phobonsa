@@ -4,7 +4,7 @@ const formatPrice = (num) => {
     let formatting_options = {
        style: 'currency',
        currency: 'USD',
-       minimumFractionDigits: 3,
+       minimumFractionDigits: 2,
     }
     // users can see how locale passed as a parameter.
     let dollarStr = new Intl.NumberFormat("en-US", formatting_options);
