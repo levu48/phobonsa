@@ -20,6 +20,7 @@ const styles = {
     justifyItems: 'center',
     fontStyle: 'italic',
     fontSize: '12px',
+    lineHeight: '80%'
 
   }
 }
@@ -28,7 +29,8 @@ const App = props => {
   return (
     <div style={styles.container}>
       <div style={styles.logoContainer}><img style={styles.logo} src='/images/PhoBonsa_Logo.svg' /></div>
-      <div><span style={styles.address}>221 Normal Ave #B, Chico, CA, (530) 965-5129, 11am-8pm</span></div>
+      <div style={styles.address}><span>"An Authentic Vietnamese Noodle Soup Restaurant"</span><br/>
+      <span>221 Normal Ave #B, Chico, CA, (530) 965-5129, 11am-8pm</span></div>
       <Menu />
     </div>
   )

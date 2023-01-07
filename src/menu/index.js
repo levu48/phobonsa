@@ -45,6 +45,11 @@ const Menu = props => {
     return ( 
         <div style={styles.container}>
             <div><span style={styles.header}>Menu</span></div>
+            <div style={{...styles.row, fontWeight: 'bold'}}>
+                <span></span>
+                <span>regular</span>
+                <span>small</span>
+            </div>
             {products.map(obj => (
                 <div style={styles.row}>
                     <div>
