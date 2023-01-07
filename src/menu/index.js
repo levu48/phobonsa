@@ -29,7 +29,10 @@ const styles = {
         display: 'grid',
         gridTemplateColumns: '250px 100px 100px',
         //border: '1px solid gray',
-        margin: '10px',
+        margin: '5px',
+        paddingTop: '3px',
+        borderTop: '1px solid lightGray',
+        width: '450px',
     }, 
     name: {
         fontFace: 'Helvetica',
@@ -38,6 +41,9 @@ const styles = {
     },
     description: {
         fontStyle: 'italic',
+    },
+    price: {
+        paddingTop: '3px',
     }
 
 }
@@ -45,7 +51,7 @@ const Menu = props => {
     return ( 
         <div style={styles.container}>
             <div><span style={styles.header}>Menu</span></div>
-            <div style={{...styles.row, fontWeight: 'bold'}}>
+            <div style={{...styles.row, fontWeight: 'bold', borderTop: '0 solid white', paddingBottom: '5px'}}>
                 <span></span>
                 <span>regular</span>
                 <span>small</span>
@@ -56,8 +62,8 @@ const Menu = props => {
                         <span style={styles.name}>{`${obj.id}. ${obj.name}`}</span><br/>
                         {obj.description && <span style={styles.description}>{`${obj.description}`}</span>}
                     </div>
-                    <div><span>{`${formatPrice(obj.prices.regular)}`}</span></div>
-                    <div><span>{obj.prices.small ? `${formatPrice(obj.prices.small)}` : ''}</span></div>
+                    <div style={styles.price}><span>{`${formatPrice(obj.prices.regular)}`}</span></div>
+                    <div style={styles.price}><span>{obj.prices.small ? `${formatPrice(obj.prices.small)}` : ''}</span></div>
                 </div>
             ))}
         </div>
