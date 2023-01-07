@@ -15,8 +15,15 @@ const formatPrice = (num) => {
 const styles = {
     container: {
     },
-    logo: {
-        width: '400px',
+    header: {
+        width: '450px',
+        display: 'grid',
+        gridTemplateColumns: '100%',
+        justifyItems: 'center',
+        fontFace: 'Helvetica',
+        fontWeight: 'bold',
+        fontSize: '30px',
+        padding: '0 0 20px 0',
     },
     row: {
         display: 'grid',
@@ -37,6 +44,7 @@ const styles = {
 const Menu = props => {
     return ( 
         <div style={styles.container}>
+            <div><span style={styles.header}>Menu</span></div>
             {products.map(obj => (
                 <div style={styles.row}>
                     <div>
