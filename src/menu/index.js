@@ -1,4 +1,4 @@
-import {products} from './data';
+import {products} from '../data/phobonsa/data';
 
 const formatPrice = (num) => {
     let formatting_options = {
