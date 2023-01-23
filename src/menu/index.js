@@ -50,14 +50,14 @@ const styles = {
 const Menu = props => {
     return ( 
         <div style={styles.container}>
-            <div><span style={styles.header}>Menu</span></div>
+            {/* <div><span style={styles.header}>Menu</span></div> */}
             <div style={{...styles.row, fontWeight: 'bold', borderTop: '0 solid white', paddingBottom: '5px'}}>
                 <span></span>
                 <span>regular</span>
                 <span>small</span>
             </div>
             {products.map(obj => (
-                <div style={styles.row}>
+                <div style={styles.row} key={`${obj.name}-${obj.id}`}>
                     <div>
                         <span style={styles.name}>{`${obj.id}. ${obj.name}`}</span><br/>
                         {obj.description && <span style={styles.description}>{`${obj.description}`}</span>}
