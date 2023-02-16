@@ -60,7 +60,7 @@ const App = props => {
       <div style={styles.oneline}><a href="https://phobonsa.com">phobonsa.com</a>, (530) 965-5129, <a href='mailto:phobonsa@gmail.com'>phobonsa@gmail.com</a></div><br/>
       <div style={styles.oneline}>Reviews: <a href='https://goo.gl/maps/gkDqJ9L5cTNWCEcf9' target='_blank'>Google</a>, <a href='https://www.yelp.com/biz/pho-bonsa-chico?osq=Pho+Bonsa' target='_blank'>Yelp</a>, Local news: <a href='https://krcrtv.com/news/local/new-pho-restaurant-a-hit-for-chico-state-students' target='_blank'>ABC7 KRCR TV</a></div>
       <div style={styles.noticeHeader}><span>NOTICE:</span></div>
-      <div style={styles.notice}><span style={styles.tagLine}>We close on Tuesdays</span><br/></div>
+      <div style={styles.notice}><span style={styles.tagLine}>We close today Thursday 2/16/2023</span><br/></div>
       </div>
 
       <Menu />
