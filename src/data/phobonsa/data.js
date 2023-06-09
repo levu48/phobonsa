@@ -157,7 +157,7 @@ export const products = [
         name: 'Sugarcane Juice',
         description: '',
         prices: {
-            regular: 5.50,
+            regular: 6.00,
         }
     }, {
         id: '22',
