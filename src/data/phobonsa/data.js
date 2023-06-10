@@ -164,7 +164,7 @@ export const products = [
         name: 'Viet Iced Coffee',
         description: '',
         prices: {
-            regular: 4.50,
+            regular: 5.00,
         }
     }, {
         id: '23',
