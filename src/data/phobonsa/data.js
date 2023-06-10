@@ -171,7 +171,7 @@ export const products = [
         name: 'Thai Iced Tea',
         description: '',
         prices: {
-            regular: 4.50,
+            regular: 5.00,
         }
     }, {
         id: '24',
