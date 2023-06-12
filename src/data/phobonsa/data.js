@@ -2,7 +2,7 @@ export const products = [
     {
         id: '1',
         name: 'Pho Dac Biet',
-        description: 'special combination',
+        description: 'beef combo (tendon optional)',
         prices: {
             regular: 13.00,
             small: 11.00
