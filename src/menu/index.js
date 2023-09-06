@@ -34,6 +34,14 @@ const styles = {
         borderTop: '1px solid lightGray',
         width: '450px',
     }, 
+    heading: {
+        fontFace: 'Helvetica',
+        fontWeight: 'bold',
+        fontSize: '20px',
+        color: 'lightGray',
+        backgroundColor: '#555555',
+        padding: '5px',
+    },
     name: {
         fontFace: 'Helvetica',
         fontWeight: 'bold',
@@ -56,16 +64,53 @@ const Menu = props => {
                 <span>regular</span>
                 <span>small</span>
             </div>
-            {products.map(obj => (
-                <div style={styles.row}>
-                    <div>
-                        <span style={styles.name}>{`${obj.id}. ${obj.name}`}</span><br/>
-                        {obj.description && <span style={styles.description}>{`${obj.description}`}</span>}
-                    </div>
-                    <div style={styles.price}><span>{`${formatPrice(obj.prices.regular)}`}</span></div>
-                    <div style={styles.price}><span>{obj.prices.small ? `${formatPrice(obj.prices.small)}` : ''}</span></div>
-                </div>
-            ))}
+            {products.map((obj, i) => {
+                let arr = [];
+                if (i === 0) {
+                    const comp = (
+                        <div style={styles.row}>
+                            <span style={styles.heading}>Pho</span>
+                        </div>
+                    )
+                    arr.push(comp);
+                } else if (i === 13) {
+                    const comp = (
+                        <div style={styles.row}>
+                            <span style={styles.heading}>Banh Bao</span>
+                        </div>
+                    )
+                    arr.push(comp);
+                } else if (i === 17) {
+                    const comp = (
+                        <div style={styles.row}>
+                            <span style={styles.heading}>Sides</span>
+                        </div>
+                    )
+                    arr.push(comp);
+                } else if (i === 20) {
+                    const comp = (
+                        <div style={styles.row}>
+                            <span style={styles.heading}>Drinks</span>
+                        </div>
+                    )
+                    arr.push(comp);
+                }
+
+
+                const comp2 = (
+                        <div style={styles.row}>
+                            <div>
+                                <span style={styles.name}>{`${obj.id}. ${obj.name}`}</span><br/>
+                                {obj.description && <span style={styles.description}>{`${obj.description}`}</span>}
+                            </div>
+                            <div style={styles.price}><span>{`${formatPrice(obj.prices.regular)}`}</span></div>
+                            <div style={styles.price}><span>{obj.prices.small ? `${formatPrice(obj.prices.small)}` : ''}</span></div>
+                        </div>
+                    )
+
+                arr.push(comp2);
+                return <div>{arr}</div>
+                })}
         </div>
     )
 }
