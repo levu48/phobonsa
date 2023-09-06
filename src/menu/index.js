@@ -66,17 +66,18 @@ const Menu = props => {
             </div>
             {products.map((obj, i) => {
                 let arr = [];
-                if (i === 0) {
+                // if (i === 0) {
+                //     const comp = (
+                //         <div style={styles.row}>
+                //             <span style={styles.heading}>Pho</span>
+                //         </div>
+                //     )
+                //     arr.push(comp);
+                // } else 
+                if (i === 13) {
                     const comp = (
                         <div style={styles.row}>
-                            <span style={styles.heading}>Pho</span>
-                        </div>
-                    )
-                    arr.push(comp);
-                } else if (i === 13) {
-                    const comp = (
-                        <div style={styles.row}>
-                            <span style={styles.heading}>Banh Bao</span>
+                            <span style={styles.heading}>Bao Buns</span>
                         </div>
                     )
                     arr.push(comp);
