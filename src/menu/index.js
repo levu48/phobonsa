@@ -77,18 +77,25 @@ const Menu = props => {
                 if (i === 13) {
                     const comp = (
                         <div style={styles.row}>
+                            <span style={styles.heading}>Banh Mi</span>
+                        </div>
+                    )
+                    arr.push(comp);
+                } if (obj.id === '14') {
+                    const comp = (
+                        <div style={styles.row}>
                             <span style={styles.heading}>Bao Buns</span>
                         </div>
                     )
                     arr.push(comp);
-                } else if (i === 17) {
+                } else if (i === 15) {
                     const comp = (
                         <div style={styles.row}>
                             <span style={styles.heading}>Sides</span>
                         </div>
                     )
                     arr.push(comp);
-                } else if (i === 20) {
+                } else if (i === 17) {
                     const comp = (
                         <div style={styles.row}>
                             <span style={styles.heading}>Drinks</span>
