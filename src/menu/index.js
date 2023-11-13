@@ -95,7 +95,7 @@ const Menu = props => {
                         </div>
                     )
                     arr.push(comp);
-                } else if (i === 17) {
+                } else if (i === 18) {
                     const comp = (
                         <div style={styles.row}>
                             <span style={styles.heading}>Drinks</span>

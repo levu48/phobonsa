@@ -106,14 +106,14 @@ export const products = [
     }, {
         id: 'M1',
         name: 'Banh Mi - Combo',
-        description: '',
+        description: 'cha lua, ham, etc.',
         prices: {
             regular: 9.00,
         }
     }, {
         id: 'M2',
         name: 'Banh Mi - Grilled Pork',
-        description: '',
+        description: 'heo nuong',
         prices: {
             regular: 9.00,
         }
@@ -144,14 +144,14 @@ export const products = [
         }
     }, 
 
-    // {
-    //     id: '19',
-    //     name: 'Eggrolls (4)',
-    //     description: '',
-    //     prices: {
-    //         regular: 7.00,
-    //     }
-    // },
+    {
+        id: '19',
+        name: 'Eggrolls (4)',
+        description: '',
+        prices: {
+            regular: 7.00,
+        }
+    },
     
     {
         id: '20',
