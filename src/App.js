@@ -59,9 +59,11 @@ const App = props => {
       <div style={styles.oneline}><span>Hours: 11 am - 2:30 pm and 4:30 pm - 8 pm, close on Tuesdays</span></div><br/>
       <div style={styles.oneline}><a href="https://phobonsa.com">phobonsa.com</a>, (530) 965-5129, <a href='mailto:phobonsa@gmail.com'>phobonsa@gmail.com</a></div><br/>
       <div style={styles.oneline}>Reviews: <a href='https://goo.gl/maps/gkDqJ9L5cTNWCEcf9' target='_blank'>Google</a>, <a href='https://www.yelp.com/biz/pho-bonsa-chico?osq=Pho+Bonsa' target='_blank'>Yelp</a>, Local news: <a href='https://krcrtv.com/news/local/new-pho-restaurant-a-hit-for-chico-state-students' target='_blank'>ABC7 KRCR TV</a></div>
-      <div style={styles.noticeHeader}><span>NOTICE: Summer Break</span></div>
-      <div style={styles.notice}><span style={styles.tagLine}>We close from Jun 28th to July 10th, 2024</span><br/>
-      <span style={styles.tagLine}></span><br/></div>
+      <div style={styles.noticeHeader}><span>NOTICE: Summer Schedule</span></div>
+          <div style={styles.notice}>
+              <span style={styles.tagLine}>We close on Sunday July 21th and Monday July 22nd, 2024</span><br/>
+            <span style={styles.tagLine}></span><br/>
+          </div>
       </div>
 
       <Menu />
