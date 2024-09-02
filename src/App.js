@@ -63,6 +63,7 @@ const App = props => {
       <div style={styles.noticeHeader}><span></span></div>
           <div style={styles.notice}>
               <span style={styles.tagLine}><br/>
+              Happy Labor Day - We close on Monday Sept 2nd
               </span><br/>
             <span style={styles.tagLine}></span><br/>
           </div>
