@@ -65,7 +65,7 @@ const App = props => {
           <div style={styles.notice}>
               <span style={styles.tagLine}><br/>
               Happy Holidays! <br/>
-              We close from 12/23-12/25.
+              We close from 12/24-12/25.
               </span><br/>
             <span style={styles.tagLine}></span><br/>
           </div>
