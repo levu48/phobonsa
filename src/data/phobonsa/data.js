@@ -5,7 +5,7 @@ export const products = [
         description: 'beef combo (tendon optional)',
         prices: {
             regular: 14.00,
-            small: 13.00
+            //small: 13.00
         }
     }, {
         id: '2',
@@ -13,7 +13,7 @@ export const products = [
         description: 'steak',
         prices: {
             regular: 14.00,
-            small: 13.00
+            //small: 13.00
         }
     }, {
         id: '3',
@@ -21,7 +21,7 @@ export const products = [
         description: 'meatball',
         prices: {
             regular: 14.00,
-            small: 13.00
+            //small: 13.00
         }
     }, {
         id: '4',
@@ -29,7 +29,7 @@ export const products = [
         description: 'steak and flank',
         prices: {
             regular: 14.00,
-            small: 13.00
+            //small: 13.00
         }
     }, {
         id: '5',
@@ -37,7 +37,7 @@ export const products = [
         description: 'steak, flank and fatty flank',
         prices: {
             regular: 14.00,
-            small: 13.00
+            //small: 13.00
         }
     }, {
         id: '6',
@@ -45,7 +45,7 @@ export const products = [
         description: 'steak and meatball',
         prices: {
             regular: 14.00,
-            small: 13.00
+            //small: 13.00
         }
     }, {
         id: '7',
@@ -53,7 +53,7 @@ export const products = [
         description: 'steak and brisket',
         prices: {
             regular: 14.00,
-            small: 13.00
+            //small: 13.00
         }
     }, {
         id: '8',
@@ -61,7 +61,7 @@ export const products = [
         description: 'steak and fatty flank',
         prices: {
             regular: 14.00,
-            small: 13.00
+            //small: 13.00
         }
     }, {
         id: '9',
@@ -69,7 +69,7 @@ export const products = [
         description: 'steak and tendon',
         prices: {
             regular: 14.00,
-            small: 13.00
+            //small: 13.00
         }
     }, {
         id: '10',
@@ -77,7 +77,7 @@ export const products = [
         description: 'steak, brisket and tendon',
         prices: {
             regular: 14.00,
-            small: 13.00
+            //small: 13.00
         }
     }, {
         id: '11',
@@ -85,7 +85,7 @@ export const products = [
         description: 'chicken',
         prices: {
             regular: 14.00,
-            small: 13.00
+            //small: 13.00
         }
     }, {
         id: '12',
@@ -93,7 +93,7 @@ export const products = [
         description: 'shrimp',
         prices: {
             regular: 14.00,
-            small: 13.00
+            //small: 13.00
         }
     }, {
         id: '13',
@@ -101,7 +101,7 @@ export const products = [
         description: 'vegan',
         prices: {
             regular: 14.00,
-            small: 13.00
+            //small: 13.00
         }
     }, {
         id: 'M1',
@@ -144,14 +144,14 @@ export const products = [
         }
     }, 
 
-    {
-        id: '19',
-        name: 'Eggrolls (4)',
-        description: '',
-        prices: {
-            regular: 7.00,
-        }
-    },
+    // {
+    //     id: '19',
+    //     name: 'Eggrolls (4)',
+    //     description: '',
+    //     prices: {
+    //         regular: 7.00,
+    //     }
+    // },
     
     {
         id: '20',

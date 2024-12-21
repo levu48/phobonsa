@@ -27,7 +27,8 @@ const styles = {
     },
     row: {
         display: 'grid',
-        gridTemplateColumns: '250px 100px 100px',
+        //gridTemplateColumns: '250px 100px 100px',
+        gridTemplateColumns: '350px 100px',
         //border: '1px solid gray',
         margin: '5px',
         paddingTop: '3px',
@@ -62,7 +63,7 @@ const Menu = props => {
             <div style={{...styles.row, fontWeight: 'bold', borderTop: '0 solid white', paddingBottom: '5px'}}>
                 <span></span>
                 <span>regular</span>
-                <span>small</span>
+                {/* <span>small</span> */}
             </div>
             {products.map((obj, i) => {
                 let arr = [];
@@ -95,7 +96,7 @@ const Menu = props => {
                         </div>
                     )
                     arr.push(comp);
-                } else if (i === 18) {
+                } else if (i === 17) {
                     const comp = (
                         <div style={styles.row}>
                             <span style={styles.heading}>Drinks</span>
@@ -112,7 +113,7 @@ const Menu = props => {
                                 {obj.description && <span style={styles.description}>{`${obj.description}`}</span>}
                             </div>
                             <div style={styles.price}><span>{`${formatPrice(obj.prices.regular)}`}</span></div>
-                            <div style={styles.price}><span>{obj.prices.small ? `${formatPrice(obj.prices.small)}` : ''}</span></div>
+                            {/* <div style={styles.price}><span>{obj.prices.small ? `${formatPrice(obj.prices.small)}` : ''}</span></div> */}
                         </div>
                     )
 
