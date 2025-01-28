@@ -64,7 +64,7 @@ const App = props => {
       <div style={styles.noticeHeader}><span></span></div>
           <div style={styles.notice}>
               <span style={styles.tagLine}><br/>
-              Happy Lunar New Year <br/>
+              Happy Tết, the year of Snake<br/>
               Chúc Mừng Năm Mới!<br/>
               We close on Wed 1/29/2025.
               </span><br/>
