@@ -62,14 +62,13 @@ const App = props => {
       <div style={styles.oneline}><a href="https://phobonsa.com">phobonsa.com</a>, (530) 965-5129, <a href='mailto:phobonsa@gmail.com'>phobonsa@gmail.com</a></div><br/>
       <div style={styles.oneline}>Reviews: <a href='https://goo.gl/maps/gkDqJ9L5cTNWCEcf9' target='_blank'>Google</a>, <a href='https://www.yelp.com/biz/pho-bonsa-chico?osq=Pho+Bonsa' target='_blank'>Yelp</a>, Local news: <a href='https://krcrtv.com/news/local/new-pho-restaurant-a-hit-for-chico-state-students' target='_blank'>ABC7 KRCR TV</a></div>
       <div style={styles.noticeHeader}><span></span></div>
-          {/* <div style={styles.notice}>
+          {<div style={styles.notice}>
               <span style={styles.tagLine}><br/>
-              Happy Tết, the year of Snake <br/>
-              Chúc Mừng Năm Mới!<br/>
-              We close on Wed 1/29/2025.
+              We will be closed from April 6th to 8th due to unforeseen circumstances.
+We sincerely apologize for any inconvenience this may cause and appreciate your understanding.
               </span><br/>
             <span style={styles.tagLine}></span><br/>
-          </div> */}
+          </div> }
       </div>
 
       <Menu />
