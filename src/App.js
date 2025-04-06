@@ -64,9 +64,9 @@ const App = props => {
       <div style={styles.noticeHeader}><span></span></div>
           {<div style={styles.notice}>
               <span style={styles.tagLine}><br/>
-              We will be closed from April 6th to 8th</br>
-              due to unforeseen circumstances.</br>
-              We sincerely apologize for any inconvenience</br>
+              We will be closed from April 6th to 8th<br/>
+              due to unforeseen circumstances.<br/>
+              We sincerely apologize for any inconvenience<br/>
               this may cause and appreciate your understanding.
               </span><br/>
             <span style={styles.tagLine}></span><br/>
