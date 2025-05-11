@@ -64,9 +64,9 @@ const App = props => {
       <div style={styles.noticeHeader}><span></span></div>
           <div style={styles.notice}>
               <span style={styles.tagLine}><br/>
-              Happy Easter!<br/>
+              Happy Mother's Day!<br/>
               Sorry, we are closed<br/>
-              on Sun April 20th, 2025.</span><br/>
+              on Sun May 11th, 2025.</span><br/>
             <span style={styles.tagLine}></span><br/>
           </div> 
       </div>
