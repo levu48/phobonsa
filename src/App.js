@@ -63,10 +63,10 @@ const App = props => {
       <div style={styles.oneline}>Reviews: <a href='https://goo.gl/maps/gkDqJ9L5cTNWCEcf9' target='_blank'>Google</a>, <a href='https://www.yelp.com/biz/pho-bonsa-chico?osq=Pho+Bonsa' target='_blank'>Yelp</a>, Local news: <a href='https://krcrtv.com/news/local/new-pho-restaurant-a-hit-for-chico-state-students' target='_blank'>ABC7 KRCR TV</a></div>
       <div style={styles.noticeHeader}><span></span></div>
           <div style={styles.notice}>
-              <span style={styles.tagLine}><br/>
+              {/* <span style={styles.tagLine}><br/>
               We close on Labor Day<br/>
               Sept 1st, 2025</span><br/>
-            <span style={styles.tagLine}></span><br/>
+            <span style={styles.tagLine}></span><br/> */}
           </div> 
       </div>
 
