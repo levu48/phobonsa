@@ -174,7 +174,7 @@ export const products = {
 }
 
 export function getMenu() {
-    const {P1, P2, P3, P4, P5, P6, P7, P8, P9, R1, R2, R3, B1, B2, B3, L1, L2, M1, M2} = products;
+    const {P1, P2, P3, P4, P5, P6, P7, P8, P9, R1, R2, R3, B1, B2, B3, L1, L2, M1, M3} = products;
     return [
         {
             name: 'Phở',
@@ -195,7 +195,7 @@ export function getMenu() {
         }, {
             name: 'Bánh Mì',
             displayQty: 2,
-            items: [M1, M2]
+            items: [M1, M3]
         }
 
     ]

@@ -110,10 +110,19 @@ export const products = [
         prices: {
             regular: 9.00,
         }
-    }, {
-        id: 'M2',
-        name: 'Banh Mi - Grilled Pork',
-        description: 'heo nuong',
+    }, 
+    // {
+    //     id: 'M2',
+    //     name: 'Banh Mi - Grilled Pork',
+    //     description: 'heo nuong',
+    //     prices: {
+    //         regular: 9.00,
+    //     }
+    // }, 
+    {
+        id: 'M3',
+        name: 'Banh Mi - BBQ Pork',
+        description: 'xa xiu',
         prices: {
             regular: 9.00,
         }
