@@ -111,14 +111,14 @@ export const products = [
             regular: 9.00,
         }
     }, 
-    // {
-    //     id: 'M2',
-    //     name: 'Banh Mi - Grilled Pork',
-    //     description: 'heo nuong',
-    //     prices: {
-    //         regular: 9.00,
-    //     }
-    // }, 
+    {
+        id: 'M2',
+        name: 'Banh Mi - Grilled Pork',
+        description: 'heo nuong',
+        prices: {
+            regular: 9.00,
+        }
+    }, 
     {
         id: 'M3',
         name: 'Banh Mi - BBQ Pork',
@@ -162,14 +162,15 @@ export const products = [
     //     }
     // },
     
+    // {
+    //     id: '20',
+    //     name: 'Dumplings (8)',
+    //     description: '',
+    //     prices: {
+    //         regular: 7.00,
+    //     }
+    // }, 
     {
-        id: '20',
-        name: 'Dumplings (8)',
-        description: '',
-        prices: {
-            regular: 7.00,
-        }
-    }, {
         id: '22',
         name: 'Viet Iced Coffee',
         description: '',

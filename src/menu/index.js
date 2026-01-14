@@ -89,7 +89,7 @@ const Menu = props => {
                         </div>
                     )
                     arr.push(comp);
-                } else if (i === 15) {
+                } else if (i === 16) {
                     const comp = (
                         <div style={styles.row}>
                             <span style={styles.heading}>Sides</span>
